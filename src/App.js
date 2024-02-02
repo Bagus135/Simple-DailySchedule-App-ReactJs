@@ -234,7 +234,7 @@ return (
           {Data.map((satuData, index) =>{
             if(satuData.Nama.toLowerCase().indexOf(SearchText.toLowerCase())=== -1){  
               DataNonSearch.push(index);
-              if(DataNonSearch.length === 2*Data.length){
+              if(DataNonSearch.length === Data.length){
                 return <StartPage text="We couldn't find your schedule :(" Emote='😢' key={DataNonSearch.length}/>};
               return 
              };

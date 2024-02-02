@@ -26,6 +26,7 @@
 .Header .Logo {
   display: flex;
   height: 100%;
+  
 }
 .Header .Logo img {
   width: 40px;
