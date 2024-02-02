@@ -1,6 +1,5 @@
 import { useEffect,useState } from 'react';
 import './App.css';
-import logoapp from "./img/schedule.png"
 import plus from "./img/plus.png"
 import { DragDropContext, Draggable} from 'react-beautiful-dnd';
 import { StrictModeDroppable as Droppable} from './droppableDnD.js';
@@ -36,10 +35,7 @@ function Header({SearchText, setSearchText}){
   return(
 <>
   <div className='Header'>
-    <div className='Logo'>
-      <img  src={logoapp}/>
-      <h1>DailyList</h1>
-    </div>
+    <h1>DailyList</h1>
     <div className='SearchBar'>
       <div className='SearchBar2'>
         <input type='search' placeholder='Search Your Schedule Name' id={SearchInput} value={SearchText} onChange={(e) => setSearchText(e.target.value)}/>
@@ -234,7 +230,7 @@ return (
           {Data.map((satuData, index) =>{
             if(satuData.Nama.toLowerCase().indexOf(SearchText.toLowerCase())=== -1){  
               DataNonSearch.push(index);
-              if(DataNonSearch.length === Data.length){
+              if(DataNonSearch.length ===  Data.length){
                 return <StartPage text="We couldn't find your schedule :(" Emote='😢' key={DataNonSearch.length}/>};
               return 
              };

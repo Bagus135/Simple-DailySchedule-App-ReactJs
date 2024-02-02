@@ -14,24 +14,18 @@
   align-items: center;
 }
 .Header{
-  width: 100%;
+  width: 100vw;
   height: 50px;
   display:flex;
   align-items: center;
-  padding: 5px 2%;
+  padding: 5px 3%;
   justify-content:space-between;
   background-color: rgba(25, 136, 173, 0.5);
   user-select: none;
 }
-.Header .Logo {
-  display: flex;
-  height: 100%;
-  
-}
-.Header .Logo img {
-  width: 40px;
-  height: 40px;
-  margin-right:5px;
+
+.Header h1{
+  font-size:xx-large;
 }
 .Header .SearchBar{
   height: 100%;
