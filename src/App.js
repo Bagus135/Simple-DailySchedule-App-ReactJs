@@ -140,7 +140,7 @@ function App(){
   const [SearchText, setSearchText] = useState('');
 
   const [DataMap, setDataMap] = useState(()=>{
-   if(SavedData.length !== 0){
+   if(Data.length !== 0){
     return <div className='Jadwalmu'>YOUR SCHEDULE</div>;
    }
   return <StartPage text="You haven't added your schedule yet :(" Emote='👀'/>})
