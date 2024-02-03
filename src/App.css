@@ -40,7 +40,7 @@
 .Header .SearchBar button{
   background-color: transparent;
   height: 100%;
-  width: 10%;
+  width: 13%;
   border: none;
   font-size: x-large;
   outline: none;
@@ -59,7 +59,7 @@ top: 0%;
 .Header .SearchBar .SearchBar2{
   overflow: hidden;
   height: 100%;
-  width: 80%;
+  width: 74%;
   display: flex;
   justify-content: center;
   align-items: center;
