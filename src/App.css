@@ -74,14 +74,14 @@ top: 0%;
   text-align: center;
 }
 .Header .SearchBar .SearchBar2 #nonActiveInput{
-  transform:translateX(300px);
+  transform:translateX(110%);
   outline: none;
   border: none;
   border-radius: 20px;
   height: 80%;
-  width: 40%;
-  margin-top: 2%;
+  width: 100%;
   transition: 0.5s;
+  text-align: center;
   transform-origin: right;
 }
 .ActivePage{
