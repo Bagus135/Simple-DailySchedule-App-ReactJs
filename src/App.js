@@ -38,7 +38,7 @@ function Header({SearchText, setSearchText}){
     <h1>DailyList</h1>
     <div className='SearchBar'>
       <div className='SearchBar2'>
-        <input type='search' placeholder='Search Your Schedule Name' id={SearchInput} value={SearchText} onChange={(e) => setSearchText(e.target.value)}/>
+        <input type='search' placeholder='Search Your Schedule' id={SearchInput} value={SearchText} onChange={(e) => setSearchText(e.target.value)}/>
       </div>
       <button type='button' onClick={HandleClickSearchButton} title='Search'>🔍</button>
       <button type='button' className='Admin' onClick={handleClickAdminButton}><img title='Author' src={admin}/></button>
