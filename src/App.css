@@ -281,22 +281,22 @@ form .AddButtonSchedule{
   width: 30%;
 }
 .AddButtonSchedule .Reset{
-  background-color: rgba(250, 0, 0, 0.8);
+  background-color: rgba(255, 161, 161, 0.8);
   font-weight: bolder;
-  border: 3px outset rgb(114, 58, 58);
+  border: 4px outset rgb(146, 81, 81);
 }
 .AddButtonSchedule .Submit{
-  background-color: rgba(0, 0, 250, 0.8);
+  background-color: rgba(155, 155, 255, 0.8);
   font-weight: bolder;
-  border: 3px outset rgb(28, 30, 63);
+  border: 4px outset rgb(95, 99, 161);
 }
 .AddButtonSchedule .Reset:hover{
-  background-color: rgba(250, 0, 0, 0.9);
-  border: 3px ridge rgb(114, 58, 58);
+  background-color: rgba(248, 119, 119, 0.9);
+  border: 4px ridge rgb(161, 92, 92);
 }
 .AddButtonSchedule .Submit:hover{
-  background-color: rgba(0, 0, 250, 0.9);
-  border: 3px ridge rgb(28, 30, 63);
+  background-color: rgba(110, 110, 255, 0.9);
+  border: 4px ridge rgb(95, 99, 161);
 }
 .StartPage{
   position: absolute;
@@ -314,7 +314,6 @@ form .AddButtonSchedule{
   color: rgba(25, 136, 173, 0.8);
 }
 .StartPage .text{
-  margin-top: 5px;
   font-size: 1.3rem;
   color:rgba(25, 136, 173, 1);
 }
