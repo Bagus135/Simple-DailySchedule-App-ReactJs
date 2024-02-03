@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
   margin : 0;
   padding : 0;
@@ -26,7 +28,7 @@
 
 .Header h1{
   font-size:1.6rem;
-  width: 25%;
+  width: 35%;
 }
 .Header .SearchBar{
   height: 100%;
